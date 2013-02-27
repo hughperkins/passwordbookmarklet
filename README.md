@@ -14,7 +14,7 @@ To use
 ------
 
 - In your internet browser, create a bookmark in your bookmarks toolbar, and paste the contents of 
-bookmarklet.js inside
+inputpassowrd.js inside
 - Go to a page where you want to enter a password
    - click the bookmark
    - enter your master password, and press 'enter'
@@ -30,5 +30,9 @@ I'm fairly sure that it's non-trivial to work backwards from a password to retri
 original master password, but I'm not an expert in this domain, and cannot guarantee that, and 
 you use this script at your own risk.
 
-
+Note that there are a couple of additional bookmarklets available here:
+- showpass.js reveals all the password fields on the page, so you can check that the generated
+  passwords look reasonable
+- createpassword.js has two password fields, so you have to enter the password twice.  If they 
+  are different, then it will show an error, and refuse to proceed.
 
