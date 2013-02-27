@@ -2,7 +2,9 @@ javascript:
 /* copyright Hugh Perkins 2013, and all the contributors listed below
    You can use this code under the BSD license
 
-   This is derived from Nic Wolff's original password generator at http://angel.net/~nic/passwd.current.html , which was public domain at time of derivation
+   This is derived from Nic Wolff's original password generator at 
+   http://angel.net/~nic/passwd.current.html , which was public domain at time
+   of derivation
 
    Contains sha1 implementation with following header:
       A JavaScript implementation of the Secure Hash Algorithm, SHA-1, as defined
@@ -15,7 +17,8 @@ javascript:
    Modifications by Hugh Perkins:
       - use an additional div popup, with a password field input, so people can't 
         read your password over your shoulder
-      - changed password length to 16 + the '1a' suffix, which should be secure for my lifetime...
+      - changed password length to 16 + the '1a' suffix, which should be secure 
+        for my lifetime...
 */
 
 var b64pad='';
