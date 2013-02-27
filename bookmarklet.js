@@ -51,7 +51,7 @@ function doIt(){
    var passwordinput = document.getElementById(ourpwinput);
     if( passwordinput == null ) {
         oldhtml = document.body.innerHTML;
-        document.body.innerHTML = '<div style="z-index: 100; position: absolute; left: 100px; top: 100px; background-color: #ecc; border: 1px solid black" id="' + ourdivname + '" >Master password: <input type="password" id="' + ourpwinput + '" onkeydown="if (event.keyCode == 13) doIt();"/><input type="button" tabindex="-999999" value="Get password" onclick="doIt();" /></div>' + document.body.innerHTML;
+        document.body.innerHTML = '<div style="z-index: 100; position: absolute; left: 100px; top: 100px; background-color: #ecc; border: 1px solid black" id="' + ourdivname + '" >Master password: <input type="password" id="' + ourpwinput + '" onkeydown="if (event.keyCode == 13) doIt();"/><input type="submit" value="Get password" onclick="doIt();" /></div>' + document.body.innerHTML;
         document.getElementById(ourpwinput).focus();
         return;
     }
