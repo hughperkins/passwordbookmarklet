@@ -43,7 +43,7 @@ To use, standalone page
 
 Using the standalone page works where the password field is not embedded in a webpage.
 
-- Load 'standalone.html' in your internet browser
+- Go to http://hughperkins.github.com/passwordbookmarklet/standalone.html
 - fill in the domain and password
 - click 'Get Password'
 
