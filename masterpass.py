@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+# Copyright Hugh Perkins 2013
+
+# You can use this under a BSD license
+# based on the original web page by Nic Wolff http://angel.net/~nic/passwd.current.html ,
+# which was public domain at the time of derivation
+
 # replicate what the bookmarklets do, using python, so can run from console
 
 import sys
