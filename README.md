@@ -50,6 +50,13 @@ Using the standalone page works where the password field is not embedded in a we
 - if you click 'Add confirm', then you can type your password twice, to check you typed it 
 correctly
 
+How to generate a secure master password?
+-----------------------------------------
+
+This cartoon is highly relevant: http://xkcd.com/936/
+
+xkcd password generator here: http://preshing.com/20110811/xkcd-password-generator
+
 Console version
 ---------------
 
