@@ -61,12 +61,14 @@ Console version
 ---------------
 
 masterpass.py is a console version, using python.  You can use this if you dont have access
-to a web browser.  The code is also easy to read and understand, so you can see how it works.
+to a web browser.  It copies the password into the clipboard, without ever showing it in clear.
+
+The code is also easy to read and understand, so you can see how it works.
 
     > python masterpass.py
     Please enter domain: mydomain.com
     Please enter master password for mydomain.com: 
-    Password for mydomain.com is vkxxcI88DdRzGZ4o1a
+    Password has been copied to your clipboard
 
 Acknowledgements
 ----------------
