@@ -61,4 +61,14 @@ to a web browser.  The code is also easy to read and understand, so you can see 
     Please enter master password for mydomain.com: 
     Password for mydomain.com is vkxxcI88DdRzGZ4o1a
 
+Acknowledgements
+----------------
+
+The idea is from Nic Wolff, http://angel.net/~nic/passwd.current.html .  I tweaked it a bit:
+- made the passwords longer
+- modified the bookmarklet to use a password field, so people can't shoulder-surf so easily
+- added a version with a 'confirm' field
+- added the 'showpass' bookmarklet
+- created a console version
+
 
