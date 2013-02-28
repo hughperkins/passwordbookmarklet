@@ -36,3 +36,5 @@ Note that there are a couple of additional bookmarklets available here:
 - createpassword.js has two password fields, so you have to enter the password twice.  If they 
   are different, then it will show an error, and refuse to proceed.
 
+You can also use standalone.html for occasions where you cant use a bookmarklet, eg a wifi password
+
