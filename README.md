@@ -54,7 +54,7 @@ Console version
 ---------------
 
 masterpass.py is a console version, using python.  You can use this if you dont have access
-to a web browser.
+to a web browser.  The code is also easy to read and understand, so you can see how it works.
 
     > python masterpass.py
     Please enter domain: mydomain.com
