@@ -10,8 +10,10 @@ The cool thing about this system is:
   name of that site (but I'm not an expert in this domain, so I cannot guarantee that, and you use 
   this script at your own risk).
 
-To use 
-------
+To use, bookmarklet
+-------------------
+
+Using a bookmarklet is the easiest way to enter passwords.
 
 - In your internet browser, create a bookmark in your bookmarks toolbar, and paste the contents of 
 inputpassowrd.js inside
@@ -36,5 +38,27 @@ Note that there are a couple of additional bookmarklets available here:
 - createpassword.js has two password fields, so you have to enter the password twice.  If they 
   are different, then it will show an error, and refuse to proceed.
 
-You can also use standalone.html for occasions where you cant use a bookmarklet, eg a wifi password
+To use, standalone page
+-----------------------
+
+Using the standalone page works where the password field is not embedded in a webpage.
+
+- Load 'standalone.html' in your internet browser
+- fill in the domain and password
+- click 'Get Password'
+
+- if you click 'Add confirm', then you can type your password twice, to check you typed it 
+correctly
+
+Console version
+---------------
+
+masterpass.py is a console version, using python.  You can use this if you dont have access
+to a web browser.
+
+    > python masterpass.py
+    Please enter domain: mydomain.com
+    Please enter master password for mydomain.com: 
+    Password for mydomain.com is vkxxcI88DdRzGZ4o1a
+
 
